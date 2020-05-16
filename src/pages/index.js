@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Img from "../images/drawkit-grape-pack-illustration-18sv2 (1).svg"
 
+
 const Index = () => {
   return (
     <Layout>
