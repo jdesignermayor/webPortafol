@@ -1,0 +1,105 @@
+$primaryColor: #6048f0;
+$primaryColorHover: #6e55ff;
+$primaryColorActive: #34258b;
+$secondaryColor: #9389d2;
+$mainWhite: #fff;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+  margin: 0;
+  font-family: "Roboto";
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+a {
+  color: $secondaryColor;
+  text-decoration: none;
+}
+
+header {
+  background-color: #fff;
+  left: 0px;
+  top: 0px;
+}
+
+.principal-name {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-size: 5em;
+  //line-height: 95px;
+  letter-spacing: -0.05em;
+}
+
+.principal-name-strong {
+  font-weight: bold;
+}
+
+.info-text {
+  font-size: 1.5em;
+  margin-top: -42px;
+}
+
+@media screen and (max-width: 576px) {
+  .principal-name {
+    font-size: 18vw;
+    line-height: 131px;
+  }
+  .info-text {
+    font-size: 6vw;
+  }
+}
+
+.btn {
+  padding: 0.7rem 19px 0.7rem 19px;
+  font-size: 14px;
+  border-radius: 5px;
+  /* letter-spacing: -0.05em; */
+  border-style: unset;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button-primary {
+  background-color: $primaryColor;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: $primaryColorHover;
+}
+
+.button-primary:active {
+  background-color: $primaryColorActive;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.line-call {
+  font-weight: 100;
+  color: #6047f0;
+  background-color: #6046f029;
+  padding: 3px 12px 3px 12px;
+  border-radius: 5px;
+}
+
+.imgLogo {
+  width: 412px;
+}
+
+.div1 {
+  flex: 168%;
+}
+
+.iconsize {
+  width: 30px;
+}
